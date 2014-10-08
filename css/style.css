@@ -40,36 +40,49 @@ h4 {
 ========================================== */
 
 header{
-  background-color: #cccccc; /* grey */
-  
+  background-color: green; /* grey */
+  color: white;
+    text-align: center;
   
 }
 
 footer{
   background-color: #babaff; /* light-ish blue */
-  
-  
+  text-align: center;
 }
 
 .content-wrapper{
   background-color:#fafa00; /* yellow */
-  
+  width: 80%;
+    margin: 0 auto;
   
 }
 
 .article{
-  background-color: #f0be86; /* kind of orange */
-  
-  
+  background-color: white; /* kind of orange */
+  float: left;
+    width: 60%;
 }
 
 .sidebar{
-  background-color: #ffaecf; /* kind of pink */
-  
+  background-color: grey; /* kind of pink */
+  float: left;
+    width: 40%;
   
 }
+.article h1{
+    color: green;
+}
+.sidebar h2{
+    color: blue;
+}
+header h1, header h2{
+    font-style: italic;
 
-
+}
+.featured-img {
+    float: right;
+}
 
 
 
